@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CVALEXKOR</title>
+    <title>ALEXKORCV</title>
+    <style>
+      .rounded-image {
+        width: 40%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px black;
+        padding: 0.2em;
+        margin-bottom: 1em;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+	<nav  data-bs-theme="dark" class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container">
+        <a class="navbar-brand p-0" href="#"> 
+			<img src="/photos/logo.png" alt="logo" width="40">
+		  </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/photo.html">Photos</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <img class="rounded-image" src="/photos/profile.png" alt="Alexkor" />
+          <h1 class="fw-light">Alexander Koryakin</h1>
+          <p class="lead text-muted">BOOTSTRAP LIBRARY CHECK</p>
+          <a
+            href="https://vk.com/alek_core"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            My VK
+          </a>
+          <a
+            href="https://wa.me/+79133993776"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            My WA
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
